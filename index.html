@@ -2,143 +2,160 @@
 <HTML>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Explore Yosemite</title>
-  <meta lang="en">
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Das Green Café</title>
+    <meta lang="en">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RXJF92XXNK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-RXJF92XXNK');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N3DQHN4');</script>
+    <!-- End Google Tag Manager -->
 
 </head>
 
 <body>
-  <header class="header">
-    <a href="" class="logo">
-      <p style="font-size: 20px; padding-top: 10px;"> Das Green Café</p>
-    </a>
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-    <ul class="menu">
-      <li><a href="https://www.nps.gov/yose/index.htm" target="_blank">Crowd Meter</a></li>
-      <li><a href="https://www.nps.gov/yose/index.htm" target="_blank">About</a></li>
-      <li><a href="https://www.nps.gov/yose/planyourvisit/camping.htm" target="_blank">Gallery</a></li>
-      <li><a href="https://www.nps.gov/yose/planyourvisit/valleyhikes.htm" target="_blank">Contact</a></li>
-      <li><a href="https://www.nps.gov/yose/planyourvisit/calendar.htm" target="_blank">Shop</a></li>
-      <li><i class="fa fa-user" aria-hidden="true"></i><span class="login" style="color: white;">Login / Sign-up</span>
-      </li>
-    </ul>
-  </header>
 
-  <div class="slidercontainer">
-    <div class="showSlide fade">
-      <img style="background-position: center center;" src="images/cafe-banner.jpg" alt="" />
-      <div class="header-section">
-        <h1>Das Green Café</h1>
-        <p class="sub-text" style="margin-top: 15px;">Something for everyone</p>
-        <button class="btn"> Shop Now </button>
-      </div>
-    </div>
-  </div>
+    <header class="header">
+        <a href="index.html" class="logo">
+            <p style="font-size: 20px; padding-top: 10px;"> Das Green Café</p>
+        </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><i class="fa fa-user" aria-hidden="true"></i><span class="login" style="color: white;">Login /
+                    Sign-up</span>
+            </li>
+        </ul>
+    </header>
 
-  <div class="content">
-    <div class="img-box">
-      <div class="row">
-        <div class="column img-hover-zoom">
-          <div class="container">
-            <a href="https://www.nps.gov/yose/index.htm" target="_blank">
-              <img src="images/coffe-beverages.webp" alt="Blue cup of coffee." style="width:100%">
-              <div class="overlay">
-                <div class="shop-text">Café</div>
-              </div>
-            </a>
-          </div>
+    <div class="banner">
+        <img src="images/cafe-banner.jpg" alt="" />
+        <div class="header-section">
+            <h1>Das Green Café</h1>
+            <p class="sub-text" style="margin-top: 15px;">Something for everyone</p>
+            <a href="shop.html"><button class="btn"> Shop Now </button></a>
         </div>
-        <div class="column img-hover-zoom">
-          <div class="container">
-            <a href="https://www.nps.gov/yose/planyourvisit/camping.htm" target="_blank">
-              <img src="images/chicken-sliders.jpg" alt="Two friend chicken sliders." style="width:100%">
-              <div class="overlay">
-                <div class="shop-text">Lunch</div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="column img-hover-zoom">
-          <div class="container">
-            <a href="https://www.nps.gov/yose/planyourvisit/valleyhikes.htm" target="_blank">
-              <img src="images/pani-puri.jpg" alt="Plate of Pani Puri." style="width:100%">
-              <div class="overlay">
-                <div class="shop-text">Snacks</div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
     </div>
 
-    <div class="divider">
-      <hr>
+    <div class="wrapper">
+        <div class="col-3">
+            <div class="img-box">
+                <div class="container img-hover-zoom">
+                    <a href="shop.html">
+                        <img src="images/cafe-category-square.jpg" alt="A cup of cold brew and hot coffee."
+                            style="width:100%">
+                        <div class="overlay">
+                            <div class="shop-text">Café</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="img-box">
+                <div class="container img-hover-zoom">
+                    <a href="shop.html">
+                        <img src="images/chicken-sliders.jpg" alt="Two friend chicken sliders." style="width:100%">
+                        <div class="overlay">
+                            <div class="shop-text">Lunch</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="img-box">
+                <div class="container img-hover-zoom">
+                    <a href="shop.html">
+                        <img src="images/pani-puri.jpg" alt="Plate of pani puri." style="width:100%">
+                        <div class="overlay">
+                            <div class="shop-text">Snacks</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-flex">
+            <div class="col-2">
+                <div class="container">
+                    <h2>Café and Snacks for Everyone</h2>
+                    <p>Our number one goal is providing options for everyone. Das Green Café has a wide variety of food
+                        and Café,
+                        along with an array of delectable treats that are sure to tantalize the taste buds. We takes
+                        great pride in its exceptional coffee selection, offering a
+                        diverse range of expertly brewed beverages and foods for many religious or helth dietary
+                        restrictions that cater to all preferences. From robust espressos
+                        to velvety cappuccinos, each cup is a testament to the artistry and dedication of their skilled
+                        baristas. </p>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="container">
+                    <img class="img-col" src="images/food-variety.jpg" alt="Variety of different kinds of food.">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-2">
+            <div class="container">
+                <img class="img-col" src="images/cafe-entrance.jpg" alt="Cafe front entrance to the shop.">
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="container">
+                <h2>Welcoming Atmosphere</h2>
+                <p>Das Green Cafe not only boasts a captivating atmosphere but also serves as an ideal haven for
+                    students seeking a productive environment to study and learn. The calm and serene ambiance sets the
+                    stage for focused work, allowing students to immerse themselves in their studies without
+                    distraction. We understands the importance of a conducive studying environment and ensures that
+                    noise levels are
+                    kept to a minimum, fostering an atmosphere of tranquility and concentration. </p>
+            </div>
+        </div>
     </div>
 
-    <div>
-      <div class="col-flex">
-      <div class="column-2">
-        <div class="container">
-          <h2>Cafe and Snacks for Everyone</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus erat tortor, posuere sed sem non, ultrices
-            laoreet est. Donec posuere auctor urna, eu convallis leo molestie a. Ut nisl tortor, sodales vel odio sed,
-            hendrerit imperdiet neque. Integer velit arcu, tincidunt a nisi quis, fringilla tempus leo. Ut vitae
-            faucibus erat. Nunc eget neque ac posuere sed sem non, ultrices laoreet hendrerit imperdiet neque. Integer
-            velit arcu, tincidunt a nisi quis.</p>
-        </div>
-      </div>
-      <div class="column-2">
-        <div class="container">
-          <img class="img-col" src="images/food-variety.jpg" alt="Variety of different kinds of food.">
-        </div>
-      </div>
-    </div>
-    </div>
-    <div>
-      
-      <div class="column-2">
-        <div class="container">
-          <img class="img-col" src="images/cafe-entrance.jpg" alt="Cafe front entrance to the shop.">
-        </div>
-      </div>
-      <div class="column-2">
-        <div class="container">
-          <h2>Crowd Meter</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus erat tortor, posuere sed sem non, ultrices
-            laoreet est. Donec posuere auctor urna, eu convallis leo molestie a. Ut nisl tortor, sodales vel odio sed,
-            hendrerit imperdiet neque. Integer velit arcu, tincidunt a nisi quis, fringilla tempus leo. Ut vitae
-            faucibus erat. Nunc eget neque ac posuere sed sem non, ultrices laoreet hendrerit imperdiet neque. Integer
-            velit arcu, tincidunt a nisi quis.</p>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <script src="app.js"></script>
-  <noscript>You need to enable JavaScript to view the full site.</noscript>
-  <div class="footer">
-    <div class="footer-column">
-      <a href="" class="logo">
-        <p style="font-size: 20px; padding-top: 10px;"> Das Green Café</p>
-      </a>
-    </div>
-    <div class="footer-column">
-      <div class="social">
-        <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
-        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-      </div>
-    </div>
-  </div>
-  <div class="copyrite">
-    <p style="padding: 5px;">Copyright @ Das Green Café</p>
-  </div>
-  
 </body>
+<footer>
+    <div class="footer">
+        <div class="footer-column">
+            <a href="index.html" class="logo">
+                <p style="font-size: 20px; padding-top: 10px;"> Das Green Café</p>
+            </a>
+        </div>
+        <div class="footer-column">
+            <div class="social">
+                <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="copyrite">
+        <p style="padding: 5px;">Copyright @ Das Green Café</p>
+    </div>
+</footer>
+
+
 </HTML>
